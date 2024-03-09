@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: eiei
+      POSTGRES_USER: zen
+      POSTGRES_PASSWORD: cool
+    ports:
+      - "5432:5432"
